@@ -67,7 +67,7 @@ function tweetQuote() {
 }
 
 // Event Listeners
-newQuoteBtn.addEventListener("click", getQuotesFromAPI);
+newQuoteBtn.addEventListener("click", displayNewQuote);
 twitterBtn.addEventListener("click", tweetQuote);
 
 // On Load
